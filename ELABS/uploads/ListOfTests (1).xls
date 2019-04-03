@@ -1,0 +1,49 @@
+<div>
+	<table cellspacing="0" rules="all" border="1" id="ContentPlaceHolder1_gridlot" style="border-collapse:collapse;">
+		<tr style="background-color:#FFFFFF;">
+			<th scope="col" style="background-color:#df5015;">Sr.No</th><th scope="col" style="background-color:#df5015;">Test Name</th><th scope="col" style="background-color:#df5015;">Group Name</th><th scope="col" style="background-color:#df5015;">Unit</th><th scope="col" style="background-color:#df5015;">Normal Range</th><th scope="col" style="background-color:#df5015;">Cost</th>
+		</tr><tr>
+			<td>
+                                            <span id="ContentPlaceHolder1_gridlot_lblsrno_0">1</span>
+                                        </td><td>
+                                            <span id="ContentPlaceHolder1_gridlot_lbltname_0">Blood</span>
+                                        </td><td>
+                                            <span id="ContentPlaceHolder1_gridlot_lblgname_0">test group 2</span>
+                                        </td><td>
+                                            <span id="ContentPlaceHolder1_gridlot_lblunit_0">gms</span>
+                                        </td><td>
+                                            <span id="ContentPlaceHolder1_gridlot_lblnrange_0">10-30</span>
+                                        </td><td>
+                                            <span id="ContentPlaceHolder1_gridlot_lblcost_0">250</span>
+                                        </td>
+		</tr><tr>
+			<td>
+                                            <span id="ContentPlaceHolder1_gridlot_lblsrno_1">2</span>
+                                        </td><td>
+                                            <span id="ContentPlaceHolder1_gridlot_lbltname_1">Sugar</span>
+                                        </td><td>
+                                            <span id="ContentPlaceHolder1_gridlot_lblgname_1">test group 2</span>
+                                        </td><td>
+                                            <span id="ContentPlaceHolder1_gridlot_lblunit_1">gms</span>
+                                        </td><td>
+                                            <span id="ContentPlaceHolder1_gridlot_lblnrange_1">20-30</span>
+                                        </td><td>
+                                            <span id="ContentPlaceHolder1_gridlot_lblcost_1">200</span>
+                                        </td>
+		</tr><tr>
+			<td>
+                                            <span id="ContentPlaceHolder1_gridlot_lblsrno_2">4</span>
+                                        </td><td>
+                                            <span id="ContentPlaceHolder1_gridlot_lbltname_2">Platelets</span>
+                                        </td><td>
+                                            <span id="ContentPlaceHolder1_gridlot_lblgname_2">test group 1</span>
+                                        </td><td>
+                                            <span id="ContentPlaceHolder1_gridlot_lblunit_2">gms</span>
+                                        </td><td>
+                                            <span id="ContentPlaceHolder1_gridlot_lblnrange_2">100-200</span>
+                                        </td><td>
+                                            <span id="ContentPlaceHolder1_gridlot_lblcost_2">200</span>
+                                        </td>
+		</tr>
+	</table>
+</div>

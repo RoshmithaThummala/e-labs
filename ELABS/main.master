@@ -1,0 +1,131 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="main.master.cs" Inherits="main" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+<%--    <script src="Scripts/jquery.js" type="text/javascript"></script>--%>
+
+    <script src="Scripts/jquery-1.12.0.min.js" type="text/javascript"></script>
+    <script src="Scripts/bootstrap.min.js" type="text/javascript"></script>
+
+    <script src="Scripts/jquery-ui.min.js" type="text/javascript"></script>
+    <link href="Styles/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/jquery-ui.theme.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" > 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <%--<link href="css/bootstrap.css" rel="stylesheet" />--%>
+  
+<%--    <link href="css/main.css" rel="stylesheet" />
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet" />--%>
+   <%-- <link href="css/jquery-ui-1.8.19.custom.css" rel="stylesheet" type="text/css" />
+    <link href="css/jquery.ui.theme.css" rel="stylesheet" type="text/css" />
+   
+    <script src="Scripts/jquery-1.7.2.js" type="text/javascript"></script>
+    <script src="Scripts/jquery-ui-1.8.19.custom.min.js" type="text/javascript"></script>--%>
+
+  <%--  <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/ui-lightness/jquery-ui.css">
+    <script src="Scripts/jquery-ui-1.8.19.custom.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>--%>
+
+    <style type="text/css">
+		.ul_drop{margin-left: 105px; margin-top: -40px;}
+        .ul_drop1{margin-left: 354px; margin-top: -40px;}
+    </style>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        		<div class="header_img">
+		<img src="images/banner.jpg" alt="E-Labs Banner">
+		</div>
+		<div class="container">
+
+			<div class="row">
+                <div id="nav">                    
+                    <ul>
+                        <li>Company
+                            <ul>
+                                <li><a href="companyinformation.aspx">Company Info</a></li>
+                                <li><a href="userinformation.aspx">User</a></li>
+                                <li><a href="companymenulist.aspx">My Bill Format</a></li>
+                                <li><a href="companymenulist.aspx">Backup</a></li>
+                                <li><a href="companymenulist.aspx">Restore</a></li>
+                                <li><a href="companymenulist.aspx">Options</a></li>
+                                <li><a href="companymenulist.aspx">Position Entry</a></li>
+                                <li><a href="startingform.aspx">Exit</a></li>
+                            </ul>
+                        </li><li>Masters
+                            <ul>
+                                <li><a href="testentryform.aspx">Test</a></li>
+                                <li><a href="listoftests.aspx">List of Tests</a></li>
+                                <li><a href="testgroup.aspx">Test Group</a></li>
+                                <li><a href="testformula.aspx">Test Formula</a></li>
+                                <li><a href="doctorsentry.aspx">Doctors</a></li>
+                                <li><a href="accountentry.aspx">Account</a></li>
+                                <li><a href="newaccountgroup.aspx">Account Group</a></li>
+                                <li><a href="addressbook.aspx">Address Book</a></li>
+                            </ul>
+                        </li><li>Entry
+                            <ul>
+                                <li><a href="patiententry.aspx">Patient Entry</a></li>
+                                <li>Test Report<i class="fa fa-caret-right" style="margin: 10px 0px 0px 10px;"></i>
+                                    <ul class="ul_drop">
+                                        <li><a href="patienttestresult.aspx">PendingReports</a></li>
+                                        <li><a href="completedreports.aspx">CompletedReports</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="payment.aspx">Payment</a></li>
+                                <li><a href="receiptform.aspx">Receipt</a></li>
+                                <li><a href="companymenulist.aspx">Journal</a></li>
+                            </ul>
+                        </li><li>Reports
+                            <ul>
+                                <li><a href="testreportregisteraspx.aspx">Transaction Register</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ctrl+R</li>
+                                <li><a href="commisionreport.aspx">Comission Report (%) wise</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ctrl+K</li>
+                                <li><a href="commisionreporttestwise.aspx">Comission Report Test wise</a></li>
+                                <li>Reports List<i class="fa fa-caret-right" style="margin: 10px 0px 0px 10px;"></i>
+                                     <ul class="ul_drop1">
+                                        <li><a href="pendingreports.aspx">PendingReports</a></li>
+                                        <li><a href="completingreports.aspx">CompletedReports</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="dailycollection.aspx">Daily Collection Register</a></li>
+                                <li><a href="hospitalreport.aspx">Laboratory Report</a></li>
+                                <li><a href="testwisecomparision.aspx">Test wise Comparison</a></li>
+                                <li><a href="doctorwisecomparission.aspx">Doctor wise Coparison</a></li>
+                                <li><a href="datewisecomparission.aspx">Date wise Comparison</a></li>
+                                <li><a href="homescreen.aspx">Home Screen</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ctrl+R</li>
+                                <li class="dropdown-header">-------------Account Reports-------------</li>
+                                <li><a href="companymenulist.aspx">Day Book</a></li>
+                                <li><a href="companymenulist.aspx">Leadger</a></li>
+                                <li><a href="companymenulist.aspx">Cash Book</a></li>
+                                <li class="dropdown-header">-----------Outstanding Reports-----------</li>
+                                <li><a href="balancelist.aspx">Balance List</a></li>
+                            </ul>
+                        </li><li>Utilities
+                            <ul>
+                                <li><a href="utilitiesreportbuilder.aspx">Report Builder Tool</a></li>
+                            </ul>
+                        </li><li>&nbsp;Help&nbsp;</li><li>&nbsp;File&nbsp;</li>
+                        
+                    </ul>
+                                       
+                </div>
+            </div><!--Nav Bar End-->
+</div>
+
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
